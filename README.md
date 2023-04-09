@@ -54,3 +54,11 @@ Meus arquivos de configuração e preparação do meu desktop no Plasma KDE.
   mv ~/.config/BraveSoftware ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/BraveSoftware
   ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/BraveSoftware ~/.config/BraveSoftware
   ```
+
+  Visual Studio Code
+     ```
+  mv ~/.vscode ~/.bkpdbox/Dropbox/Usuarios/$USER/.vscode
+  ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.vscode ~/.vscode
+  mv ~/.config/Code ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/Code
+  ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/Code ~/.config/Code
+  ```
