@@ -37,6 +37,12 @@ Meus arquivos de configuração e preparação do meu desktop no Plasma KDE.
   ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/chromium ~/.config/chromium
   ```
 
+  Google Chrome
+  ```
+  mv ~/.config/google-chrome ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/google-chrome
+  ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/google-chrome ~/.config/google-chrome
+  ```
+
   Discord
   ```
   mv ~/.config/discord ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/discord
