@@ -81,3 +81,26 @@ Meus arquivos de configuração e preparação do meu desktop no Plasma KDE.
   mv ~/.config/Termius ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/Termius
   ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/Termius ~/.config/Termius
   ```
+  Remmina
+   ```
+  mv ~/.config/remmina ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/remmina
+  ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/remmina ~/.config/remmina
+  ```
+  rclone
+   ```
+  mv ~/.config/rclone ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/rclone
+  ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/rclone ~/.config/rclone
+  ```
+  
+  
+ ```
+  mv ~/.gitconfig ~/.bkpdbox/Dropbox/Usuarios/$USER/.gitconfig
+  ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.gitconfig ~/.gitconfig
+  ```
+  
+ ```
+  mv ~/.ssh ~/.bkpdbox/Dropbox/Usuarios/$USER/.ssh
+  ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.ssh ~/.ssh
+  ```
+  
+  
