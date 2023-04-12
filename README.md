@@ -35,77 +35,74 @@ Meus arquivos de configuração e preparação do meu desktop no Plasma KDE.
   
   Chromium
   ```
-  mv ~/.config/chromium ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/chromium
+  rm -Rf ~/.config/chromium
   ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/chromium ~/.config/chromium
   ```
 
   Google Chrome
   ```
-  mv ~/.config/google-chrome ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/google-chrome
+  rm -Rf ~/.config/google-chrome 
   ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/google-chrome ~/.config/google-chrome
   ```
 
   Discord
   ```
-  mv ~/.config/discord ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/discord
+  rm -Rf ~/.config/discord 
   ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/discord ~/.config/discord
   ```
 
   Falkon
    ```
-  mv ~/.config/falkon ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/falkon
+  rm -Rf ~/.config/falkon
   ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/falkon ~/.config/falkon
   ```
   
   Brave Browser
    ```
-  mv ~/.config/BraveSoftware ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/BraveSoftware
+  rm -Rf ~/.config/BraveSoftware
   ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/BraveSoftware ~/.config/BraveSoftware
   ```
   Rambox
    ```
   rm -Rf ~/.config/rambox
-  mv ~/.config/rambox ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/rambox
   ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/rambox ~/.config/rambox
   ```
   Visual Studio Code
      ```
   rm -Rf ~/.vscode
-  mv ~/.vscode ~/.bkpdbox/Dropbox/Usuarios/$USER/.vscode
   ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.vscode ~/.vscode
   rm -Rf ~/.config/Code
-  mv ~/.config/Code ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/Code
   ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/Code ~/.config/Code
   ```
   Termius
    ```
-  mv ~/.config/Termius ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/Termius
+  rm -Rf ~/.config/Termius
   ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/Termius ~/.config/Termius
   ```
   Remmina
    ```
-  mv ~/.config/remmina ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/remmina
+  rm -Rf ~/.config/remmina
   ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/remmina ~/.config/remmina
   ```
   rclone
    ```
-  mv ~/.config/rclone ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/rclone
+  rm -Rf ~/.config/rclone
   ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/rclone ~/.config/rclone
   ```
   
   
  ```
-  mv ~/.gitconfig ~/.bkpdbox/Dropbox/Usuarios/$USER/.gitconfig
+  rm -Rf ~/.gitconfig
   ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.gitconfig ~/.gitconfig
   ```
   
  ```
-  mv ~/.ssh ~/.bkpdbox/Dropbox/Usuarios/$USER/.ssh
+  rm -Rf ~/.ssh
   ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.ssh ~/.ssh
   ```
   
    ```
-  mv ~/.gnupg ~/.bkpdbox/Dropbox/Usuarios/$USER/.gnupg
+  rm -Rf ~/.gnupg
   ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.gnupg ~/.gnupg
   ```
   
