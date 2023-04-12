@@ -65,11 +65,15 @@ Meus arquivos de configuração e preparação do meu desktop no Plasma KDE.
   mv ~/.config/rambox ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/rambox
   ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/rambox ~/.config/rambox
   ```
-
   Visual Studio Code
      ```
   mv ~/.vscode ~/.bkpdbox/Dropbox/Usuarios/$USER/.vscode
   ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.vscode ~/.vscode
   mv ~/.config/Code ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/Code
   ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/Code ~/.config/Code
+  ```
+  Termius
+   ```
+  mv ~/.config/Termius ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/Termius
+  ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/Termius ~/.config/Termius
   ```
