@@ -58,7 +58,12 @@ Meus arquivos de configuração e preparação do meu desktop no Plasma KDE.
   Brave Browser
    ```
   mv ~/.config/BraveSoftware ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/BraveSoftware
-  ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/BraveSoftware ~/.config/BraveSoftware
+  ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/BraveSoftware ~/.config/BraveSoftwar
+  ```
+  Rambox
+   ```
+  mv ~/.config/rambox ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/rambox
+  ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/rambox ~/.config/rambox
   ```
 
   Visual Studio Code
