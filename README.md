@@ -103,4 +103,7 @@ Meus arquivos de configuração e preparação do meu desktop no Plasma KDE.
   ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.ssh ~/.ssh
   ```
   
-  
+   ```
+  mv ~/.gnupg ~/.bkpdbox/Dropbox/Usuarios/$USER/.gnupg
+  ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.gnupg ~/.gnupg
+  ```
