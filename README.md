@@ -107,3 +107,8 @@ Meus arquivos de configuração e preparação do meu desktop no Plasma KDE.
   mv ~/.gnupg ~/.bkpdbox/Dropbox/Usuarios/$USER/.gnupg
   ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.gnupg ~/.gnupg
   ```
+  
+     ```
+  mv ~/.wine ~/.bkpdbox/Dropbox/Usuarios/$USER/.wine
+  ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.wine ~/.wine
+  ```
