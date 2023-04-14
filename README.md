@@ -24,9 +24,9 @@ Meus arquivos de configuração e preparação do meu desktop no Plasma KDE.
   ```
   rm -rf ~/Documentos && ln -s ~/.bkpdbox/Dropbox/Documentos ~/Documentos
   rm -rf ~/Imagens && ln -s ~/.bkpdbox/Dropbox/Imagens ~/Imagens
-  rm -rf ~/Músicas && ln -s ~/.bkpdbox/Dropbox/Musicas ~/Músicas
-  rm -rf ~/Vídeos && ln -s ~/.bkpdbox/Dropbox/Videos ~/Vídeos
-  rm -rf ~/Público && ln -s ~/.bkpdbox/Dropbox/Publico ~/Público
+  rm -rf ~/Músicas && ln -s ~/.bkpdbox/Dropbox/Músicas ~/Músicas
+  rm -rf ~/Vídeos && ln -s ~/.bkpdbox/Dropbox/Vídeos ~/Vídeos
+  rm -rf ~/Público && ln -s ~/.bkpdbox/Dropbox/Público ~/Público
   rm -rf ~/Desenvolvimento && ln -s ~/.bkpdbox/Dropbox/Desenvolvimento ~/Desenvolvimento
   rm -rf ~/Projetos && ln -s ~/.bkpdbox/Dropbox/Projetos ~/Projetos
   rm -rf ~/Programas && ln -s ~/.bkpdbox/Dropbox/Programas ~/Programas
