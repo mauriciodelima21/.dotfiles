@@ -83,6 +83,8 @@ Meus arquivos de configuração e preparação do meu desktop no Plasma KDE.
    ```
   rm -Rf ~/.config/remmina
   ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/remmina ~/.config/remmina
+  ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.local/share/remmina ~/.local/share/remmina
+  
   ```
   rclone
    ```
@@ -106,7 +108,8 @@ Meus arquivos de configuração e preparação do meu desktop no Plasma KDE.
   ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.gnupg ~/.gnupg
   ```
   
-     ```
-  mv ~/.wine ~/.bkpdbox/Dropbox/Usuarios/$USER/.wine
-  ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.wine ~/.wine
   ```
+  rm Rf ~/.wine
+  ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.local/share/winbox ~/.local/share/winbox
+  ```
+  
