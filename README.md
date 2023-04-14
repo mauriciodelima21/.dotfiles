@@ -30,6 +30,8 @@ Meus arquivos de configuração e preparação do meu desktop no Plasma KDE.
   rm -rf ~/Desenvolvimento && ln -s ~/.bkpdbox/Dropbox/Desenvolvimento ~/Desenvolvimento
   rm -rf ~/Projetos && ln -s ~/.bkpdbox/Dropbox/Projetos ~/Projetos
   rm -rf ~/Programas && ln -s ~/.bkpdbox/Dropbox/Programas ~/Programas
+  rm -rf ~/Modelos && ln -s ~/.bkpdbox/Dropbox/Modelos ~/Modelos
+  
   ```
 * [ ] Mover alguns diretórios de .config:
   
