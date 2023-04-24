@@ -89,27 +89,34 @@ Meus arquivos de configuração e preparação do meu desktop no Plasma KDE.
   
   ```
   rclone
-   ```
+  ```
   rm -Rf ~/.config/rclone
   ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.config/rclone ~/.config/rclone
   ```
   
+  Firefox
+  ```
+  rm -Rf  ~/.mozilla 
+  ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.mozilla ~/.mozilla 
+  ```
   
- ```
+  Git 
+  ```
   rm -Rf ~/.gitconfig
   ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.gitconfig ~/.gitconfig
   ```
-  
- ```
+  ssh
+  ```
   rm -Rf ~/.ssh
   ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.ssh ~/.ssh
   ```
-  
-   ```
+  gnupg
+  ```
   rm -Rf ~/.gnupg
   ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.gnupg ~/.gnupg
   ```
   
+  winbox
   ```
   rm Rf ~/.wine
   ln -s ~/.bkpdbox/Dropbox/Usuarios/$USER/.local/share/winbox ~/.local/share/winbox
