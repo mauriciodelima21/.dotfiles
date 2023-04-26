@@ -16,15 +16,15 @@ Meus arquivos de configuração e preparação do meu desktop no Plasma KDE.
 
 * [ ] Remover seus diretórios da ~/ e criar os links simbólicos:
   ```
-  rm -rf ~/Documentos && ln -s ~/.bkpdbox/Dropbox/Documentos ~/Documentos
-  rm -rf ~/Imagens && ln -s ~/.bkpdbox/Dropbox/Imagens ~/Imagens
-  rm -rf ~/Músicas && ln -s ~/.bkpdbox/Dropbox/Músicas ~/Músicas
-  rm -rf ~/Vídeos && ln -s ~/.bkpdbox/Dropbox/Vídeos ~/Vídeos
-  rm -rf ~/Público && ln -s ~/.bkpdbox/Dropbox/Público ~/Público
-  rm -rf ~/Desenvolvimento && ln -s ~/.bkpdbox/Dropbox/Desenvolvimento ~/Desenvolvimento
-  rm -rf ~/Projetos && ln -s ~/.bkpdbox/Dropbox/Projetos ~/Projetos
-  rm -rf ~/Programas && ln -s ~/.bkpdbox/Dropbox/Programas ~/Programas
-  rm -rf ~/Modelos && ln -s ~/.bkpdbox/Dropbox/Modelos ~/Modelos
+  rm -rf ~/Documentos && ln -s ~/.sync/$USER/Documentos ~/Documentos
+  rm -rf ~/Imagens && ln -s ~/.sync/$USER/Imagens ~/Imagens
+  rm -rf ~/Músicas && ln -s ~/.sync/$USER/Músicas ~/Músicas
+  rm -rf ~/Vídeos && ln -s ~/.sync/$USER/Vídeos ~/Vídeos
+  rm -rf ~/Público && ln -s ~/.sync/$USER/Público ~/Público
+  rm -rf ~/Desenvolvimento && ln -s ~/.sync/$USER/Desenvolvimento ~/Desenvolvimento
+  rm -rf ~/Projetos && ln -s ~/.sync/$USER/Projetos ~/Projetos
+  rm -rf ~/Programas && ln -s ~/.sync/$USER/Programas ~/Programas
+  rm -rf ~/Modelos && ln -s ~/.sync/$USER/Modelos ~/Modelos
   
   ```
 * [ ] Mover alguns diretórios de .config:
