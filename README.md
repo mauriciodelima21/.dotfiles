@@ -4,7 +4,7 @@ Meus arquivos de configuração e preparação do meu desktop no Plasma KDE.
 
 ### Preparando o Ambiente
 
-* [ ] Instalar o Syncthing
+* [ ] Instalar o Syncthing (no UaiSO J
   ```
   sudo pacman -Syy syncthing syncthingtray
   ```
