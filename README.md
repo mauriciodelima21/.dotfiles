@@ -4,22 +4,16 @@ Meus arquivos de configuração e preparação do meu desktop no Plasma KDE.
 
 ### Preparando o Ambiente
 
-* [ ] Instalar o Dropbox
+* [ ] Instalar o Syncthing
   ```
-  sudo pacman -Syy dropbox
+  sudo pacman -Syy syncthing syncthingtray
   ```
 * [ ] Criar o diretório (no UaiSO já está no Skel)
   ```
-  mkdir -p ~/.bkpdbox
+  mkdir -p ~/.sync/$USER
   ```
-* [ ] Colocar as credenciais de acesso ao DropBox
-* [ ] Alterar a localização do diretório do Dropbox para:
-  ```
-  ~/.bkpdbox/Dropbox
-  ```
-* [ ] Fazer a sincronização seletiva desmarcardo os diretórios:
+* [ ] Fazer os ajustes para sincronizar o diretório do usuário
 
-  *Backups* e *Usuarios* (desmarcar os outros usuários)
 * [ ] Remover seus diretórios da ~/ e criar os links simbólicos:
   ```
   rm -rf ~/Documentos && ln -s ~/.bkpdbox/Dropbox/Documentos ~/Documentos
