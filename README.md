@@ -15,7 +15,6 @@ Meus arquivos de configuração e preparação do meu desktop no Plasma KDE.
 * [ ] Fazer os ajustes para sincronizar o diretório do usuário
       
       + Escolher o diretório de destino
-      
       + Excluir o diretório padrão do SyncThing
 
 * [ ] Remover seus diretórios da ~/ e criar os links simbólicos:
