@@ -114,7 +114,7 @@ Meus arquivos de configuração e preparação do meu desktop no Plasma KDE.
   
   winbox
   ```
-  rm Rf ~/.wine
+  rm -Rf ~/.wine
   ln -s ~/.sync/$USER/.local/share/winbox ~/.local/share/winbox
   ```
   
