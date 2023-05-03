@@ -123,3 +123,11 @@ Meus arquivos de configuração e preparação do meu desktop no Plasma KDE.
   rm -Rf ~/.local/share/krdc
   ln `-s ~/.sync/mol/.local/share/krdc ~/.local/share/krdc
   ```
+  
+  konsole
+  ```
+  rm -Rf ~/.local/share/konsole
+  ln -s ~/.sync/mol/.local/share/konsole ~/.local/share/konsole
+  ```
+  `
+  
