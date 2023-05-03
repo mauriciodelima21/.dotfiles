@@ -118,3 +118,8 @@ Meus arquivos de configuração e preparação do meu desktop no Plasma KDE.
   ln -s ~/.sync/$USER/.local/share/winbox ~/.local/share/winbox
   ```
   
+  krdc
+  ```
+  rm -Rf ~/.local/share/krdc
+  ln `-s ~/.sync/mol/.local/share/krdc ~/.local/share/krdc
+  ```
