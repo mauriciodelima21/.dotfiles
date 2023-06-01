@@ -32,49 +32,7 @@ Meus arquivos de configuração e preparação do meu desktop no Plasma KDE.
   
   ```
 * [ ] Mover alguns diretórios de .config:
-  
-  Chromium
-  ```
-  rm -Rf ~/.config/chromium
-  ln -s ~/.sync/$USER/.config/chromium ~/.config/chromium
-  ```
-
-  Google Chrome
-  ```
-  rm -Rf ~/.config/google-chrome 
-  ln -s ~/.sync/$USER/.config/google-chrome ~/.config/google-chrome
-  ```
-
-  Discord
-  ```
-  rm -Rf ~/.config/discord 
-  ln -s ~/.sync/$USER/.config/discord ~/.config/discord
-  ```
-
-  Falkon
-   ```
-  rm -Rf ~/.config/falkon
-  ln -s ~/.sync/$USER/.config/falkon ~/.config/falkon
-  ```
-  
-  Brave Browser
-   ```
-  rm -Rf ~/.config/BraveSoftware
-  ln -s ~/.sync/$USER/.config/BraveSoftware ~/.config/BraveSoftware
-  ```
-  Rambox
-   ```
-  rm -Rf ~/.config/rambox
-  ln -s ~/.sync/$USER/.config/rambox ~/.config/rambox
-  ```
-  Visual Studio Code
-     ```
-  rm -Rf ~/.vscode
-  ln -s ~/.sync/$USER/.vscode ~/.vscode
-  rm -Rf ~/.config/Code
-  ln -s ~/.sync/$USER/.config/Code ~/.config/Code
-  ```
-  
+   
   Remmina
    ```
   rm -Rf ~/.config/remmina
@@ -87,13 +45,7 @@ Meus arquivos de configuração e preparação do meu desktop no Plasma KDE.
   rm -Rf ~/.config/rclone
   ln -s ~/.sync/$USER/.config/rclone ~/.config/rclone
   ```
-  
-  Firefox
-  ```
-  rm -Rf  ~/.mozilla 
-  ln -s ~/.sync/$USER/.mozilla ~/.mozilla 
-  ```
-  
+   
   Git 
   ```
   rm -Rf ~/.gitconfig
@@ -129,5 +81,4 @@ Meus arquivos de configuração e preparação do meu desktop no Plasma KDE.
   rm -Rf ~/.local/share/konsole
   ln -s ~/.sync/mol/.local/share/konsole ~/.local/share/konsole
   ```
-  `
-  
+ 
