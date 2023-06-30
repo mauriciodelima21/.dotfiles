@@ -65,7 +65,7 @@ Meus arquivos de configuração e preparação do meu desktop no Plasma KDE.
   
   winbox
   ```
-  rm -Rf ~/.wine
+  rm -Rf ~/.local/share/winbox
   ln -s ~/.sync/$USER/.local/share/winbox ~/.local/share/winbox
   ```
   
